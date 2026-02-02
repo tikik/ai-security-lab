@@ -66,6 +66,7 @@ python analyze_lab.py
 
 # Generate the performance chart
 python visualize_lab.py
+```
 
 📊 Key Findings
 Linguistic Guardrails are Fragile: Even the most "Senior" prompts can be bypassed if the LLM is sufficiently distracted by roleplay or complex logic.
