@@ -31,31 +31,31 @@ Key Discovery: By "Air-Gapping" the secret—moving it from the LLM context into
 
 📂 Project Structure
 Bash
-
-.
+`
 ├── attacks.md              # 15 standardized adversarial prompts (Direct, Social, Advanced)
 ├── lab_runner.py           # Automation script to run benchmarks via Ollama
 ├── analyze_lab.py          # Post-run auditor to detect leaks vs. false positives
 ├── visualize_lab.py        # Generates security comparison charts (Matplotlib)
 ├── security_lab_results.csv# Raw data from the experiment
 └── case_study.html         # Full semantic documentation for the MCP portfolio
+`
 🛠️ Installation & Usage
 1. Prerequisites
+
 Ollama installed and running (ollama serve)
-
 Python 3.10+
-
 Llama 3.2 3B model (ollama pull llama3.2)
 
 2. Setup
-Bash
 
+```Bash
 git clone https://github.com/your-username/ai-security-lab.git
 cd ai-security-lab
 pip install ollama pandas matplotlib
-3. Run the Lab
-Bash
 
+3. Run the Lab
+
+```Bash
 # Execute the 15-prompt attack battery
 python lab_runner.py
 
@@ -64,6 +64,7 @@ python analyze_lab.py
 
 # Generate the performance chart
 python visualize_lab.py
+
 📊 Key Findings
 Linguistic Guardrails are Fragile: Even the most "Senior" prompts can be bypassed if the LLM is sufficiently distracted by roleplay or complex logic.
 
