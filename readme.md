@@ -31,15 +31,17 @@ Key Discovery: By "Air-Gapping" the secret—moving it from the LLM context into
 
 📂 Project Structure
 Bash
-`
+```
 ├── attacks.md              # 15 standardized adversarial prompts (Direct, Social, Advanced)
 ├── lab_runner.py           # Automation script to run benchmarks via Ollama
 ├── analyze_lab.py          # Post-run auditor to detect leaks vs. false positives
 ├── visualize_lab.py        # Generates security comparison charts (Matplotlib)
 ├── security_lab_results.csv# Raw data from the experiment
 └── case_study.html         # Full semantic documentation for the MCP portfolio
-`
+```
+
 🛠️ Installation & Usage
+
 1. Prerequisites
 
 Ollama installed and running (ollama serve)
